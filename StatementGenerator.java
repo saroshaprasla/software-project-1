@@ -1,5 +1,4 @@
 import java.util.List;
-
 public class StatementGenerator {
     public static String generateTextStatement(Customer customer) {
         double totalAmount = customer.calculateTotalAmount();
